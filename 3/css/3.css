@@ -1,0 +1,66 @@
+img.layer1 {
+    transition: 0.4s;
+    zoom: 0.85;
+    transform: translateX(-30px);
+}
+
+.khoi {
+    width: 480px;
+    height: 360px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.khoi:hover .layer1 {
+    transform: scale(1.2);
+
+}
+
+.den {
+    transition: 0.4s;
+    width: 480px;
+    height: 360px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #00000026;
+    opacity: 0;
+}
+
+.khoi:hover .den {
+    opacity: 1;
+}
+
+.text1, .text2, .text3 {
+    position: absolute;
+    z-index: 2;
+    top: 95px;
+    left: 60px;
+    background: white;
+    padding: 5px 15px 5px 15px;
+    transition: 0.5s;
+    transform: translateX(-300px);
+}
+
+.khoi:hover .text1 {
+    transform: translateX(0);
+}
+
+.khoi .text2 {
+    top: 130px;
+    transition-delay: 0.2s;
+}
+
+.khoi .text3 {
+    top: 165px;
+    transition-delay: 0.4s;
+}
+
+.khoi:hover .text2 {
+    transform: translateX(0);
+}
+
+.khoi:hover .text3 {
+    transform: translateX(0);
+}
