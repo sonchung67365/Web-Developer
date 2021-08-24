@@ -93,6 +93,7 @@ body {
 }
 
 .sidebar ul li .tooltip {
+    z-index: 1000000000;
     position: absolute;
     left: 122px;
     top: 0;
@@ -115,6 +116,7 @@ body {
 }
 
 .sidebar ul li:hover .tooltip {
+    z-index: 99;
     transition: all 0.5s ease;
     opacity: 1;
     top: 50%;
@@ -260,6 +262,7 @@ body {
     width: calc(100% - 78px);
     left: 78px;
     transition: all 0.5s ease;
+    overflow: auto;
 }
 
 .home_content .text {
@@ -276,4 +279,15 @@ body {
 
 .bx {
     font-size: 18px;
+}
+
+.home_content .pic {
+    width: 90%;
+    text-align: center;
+    height: 600px;
+}
+
+.home_content .pic img {
+    height: 90%;
+    border-radius: 12px;
 }
