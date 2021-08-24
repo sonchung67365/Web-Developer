@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
 }
 
 body {
@@ -49,7 +52,7 @@ body {
 }
 
 .logo_content .logo .logo_name {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
 }
 
@@ -62,7 +65,7 @@ body {
     color: #fff;
     left: 50px;
     top: 6px;
-    font-size: 20px;
+    font-size: 22px;
     height: 50px;
     width: 50px;
     text-align: center;
@@ -74,11 +77,11 @@ body {
 
 .sidebar.active #btn {
     left: 90%;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .sidebar ul {
-    margin-top: 20px;
+    margin-top: 22px;
 }
 
 .sidebar ul li {
@@ -229,12 +232,12 @@ body {
 }
 
 .profile_content .name {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 .profile_content .job {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .profile #log_out {
@@ -266,7 +269,7 @@ body {
 }
 
 .home_content .text {
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 500;
     color: #1d1b31;
     margin: 12px;
